@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Runtime.Intrinsics.X86;
 
 namespace Proj_CS_SQL
 {
