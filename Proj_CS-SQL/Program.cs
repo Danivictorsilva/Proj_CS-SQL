@@ -119,7 +119,7 @@ namespace Proj_CS_SQL
                             msg += $"Error: {e.Message}\n";
                             break;
                         }
-                        cpf = ReadString("Digite o CPF da pessoa: ");
+                        cpf = Pessoa.ReadCPF("Digite o CPF da pessoa: ");
                         if (Pessoa.BuscarPorCPF(tabelaPessoa, cpf))
                         {
                             msg = "Este CPF já consta na base de dados!";
